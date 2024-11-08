@@ -21,18 +21,21 @@
 
 # Multiplication Table
 
-#number = 7
-#choosen_num = int(input('choose a number: \n'))
-#for i in range(1)
+number = 7
+choosen_num = int(input('Choose a number:\n'))
+for i in range(1,8):
+    result = (choosen_num) * i
+    print(f'{choosen_num} X {i} = {result}')
+
 
 
 # List iteration
 
-total = 0
-numbers = [10,20,30,40,50,60,70,80,90,100]
+#total = 0
+#numbers = [10,20,30,40,50,60,70,80,90,100]
 
-num_elements = len(numbers)
+#num_elements = len(numbers)
 
-for i in range(num_elements):
-    print(i)
+#for i in range(num_elements):
+ #   print(i)
 
